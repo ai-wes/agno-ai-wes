@@ -1,31 +1,5 @@
-<div align="center" id="top">
-  <a href="https://docs.agno.com">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://agno-public.s3.us-east-1.amazonaws.com/assets/logo-dark.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://agno-public.s3.us-east-1.amazonaws.com/assets/logo-light.svg">
-      <img src="https://agno-public.s3.us-east-1.amazonaws.com/assets/logo-light.svg" alt="Agno">
-    </picture>
-  </a>
-</div>
-<div align="center">
-  <a href="https://docs.agno.com">📚 Documentation</a> &nbsp;|&nbsp;
-  <a href="https://docs.agno.com/examples/introduction">💡 Examples</a> &nbsp;|&nbsp;
-  <a href="https://github.com/agno-agi/agno/stargazers">🌟 Star Us</a>
-</div>
+My custom implementations of the Agno Agent Framework.
 
-## Overview
-
-**[Agno](https://docs.agno.com) is a lightweight library for building Multimodal Agents with memory, knowledge and tools.**
-
-1. Build lightning-fast Agents that work with text, image, audio and video.
-2. Add memory, knowledge and tools as needed.
-3. Run anywhere, Agno is open-source.
-
-## AI Engineering is Software Engineering
-
-When building AI products, 80% of your solution will be standard python code, and the remaining 20% will use Agents for automation. Agno is designed for such use cases.
-
-Write your AI logic using familiar programming constructs (if, else, while, for) and avoid complex abstractions like graphs and chains. Here's a simple Agent that can search the web:
 
 ```python websearch_agent.py
 from agno.agent import Agent
